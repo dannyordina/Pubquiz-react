@@ -1,11 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
+import Nav from './components/Nav/Nav';
+
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root') as HTMLElement
+  <Nav/>,
+  document.getElementById('root')!
 );
 registerServiceWorker();
